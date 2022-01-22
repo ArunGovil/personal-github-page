@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111111;
+  margin: 0px;
+}
+
+.intro h1 {
+  color: #36e2b2;
+}
+
+.intro p {
+  color: #adaab2;
+}
+
+#p-white {
+    color: #fff;
+}
+
+.intro-container {
+  background-color: #111111;
+}
+
+.intro {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  /* height: 70vh; */
+  justify-content: center;
+}
+
+.icon-links {
+  display: flex;
+}
+
+#link-icon {
+  margin-right: 20px;
+}
+
+#line {
+  margin-top: 3vh;
+  width: 80px;
+  height: 1px;
+  opacity: 0.1;
+  background-color: #fff;
+}
+
+#line-long {
+    margin-top: 3vh;
+    width: 30vw;
+    height: 1px;
+    opacity: 0.1;
+    background-color: #fff;
+  }
+
+.button {
+  background-color: #1877f2;
+  width: 100px;
+  height: 35px;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #0A56E7;
+}
+
+.intro a {
+  text-decoration: none;
+}
+
+#button-text {
+  color: #fff;
+  padding: 5px;
+}
+
+.projects-container {
+  background-color: #111111;
+  margin-bottom: 50px;
+}
+
+.projects {
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects h1 {
+    color: #fff;
+}
+
+.projects p {
+    color: #fff;
+}
+
+.project-item {
+    width: 30vw;
+}
+
+.projects a {
+    color: #36e2b2;
+}
+
+#small-text {
+    font-size: small;
+    color: #adaab2;
+}
+
+#heading-text {
+    font-size: larger;
+    color: #36e2b2;
+}
+
+@media screen and (min-width: 900px) {
+    .intro {
+      width: 35vw;
+      height: 80vh;
+    }
+    .project-item {
+      width: 80vw;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+  .intro {
+    width: 80vw;
+  }
+  .project-item {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .intro {
+      width: 65vw;
+    }
+    .project-item {
+      width: 80vw;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .intro {
+      width: 80vw;
+      height: 100vh;
+    }
+    .project-item {
+      width: 80vw;
+    }
+  }
+
+@media screen and (max-width: 400px) {
+    .intro {
+      width: 80vw;
+      height: 100vh;
+    }
+    .project-item {
+      width: 80vw;
+    }
+  }
