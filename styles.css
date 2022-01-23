@@ -199,13 +199,3 @@ body {
     width: 80vw;
   }
 }
-
-@media screen and (max-width: 400px) {
-  .intro {
-    width: 80vw;
-    height: 100vh;
-  }
-  .project-item {
-    width: 80vw;
-  }
-}
