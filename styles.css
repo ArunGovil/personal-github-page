@@ -97,12 +97,9 @@ body {
   background-color: #fff;
 }
 
-.button-container {
-  width: 120px;
-  height: 40px;
-}
 .button {
   background-color: #1877f2;
+  width: 120px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 8px;
